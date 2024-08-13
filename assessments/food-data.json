@@ -1,0 +1,229 @@
+{
+  "recipes": [
+    {
+      "name": "Pasta Carbonara",
+      "cuisine": "Italian",
+      "image": "https://raw.githubusercontent.com/otago-polytechnic-bit-courses/ID721001-mobile-application-development/s1-24/assessments/images/pasta_carbonara.jpg",
+      "ingredients": [
+        "200g spaghetti",
+        "100g pancetta",
+        "2 eggs",
+        "50g Pecorino cheese",
+        "Black pepper"
+      ],
+      "instructions": "Cook the spaghetti. While pasta is cooking, fry pancetta until crispy. Whisk eggs and cheese. Mix cooked pasta, pancetta, and egg mixture. Add black pepper and serve."
+    },
+    {
+      "name": "Margherita Pizza",
+      "cuisine": "Italian",
+      "image": "https://raw.githubusercontent.com/otago-polytechnic-bit-courses/ID721001-mobile-application-development/s1-24/assessments/images/margherita_pizza.jpg",
+      "ingredients": [
+        "Pizza dough",
+        "Tomato sauce",
+        "Fresh mozzarella cheese",
+        "Fresh basil leaves",
+        "Olive oil"
+      ],
+      "instructions": "Roll out pizza dough, spread tomato sauce, add mozzarella cheese, and top with basil leaves. Drizzle with olive oil. Bake until cheese is melted and bubbly."
+    },
+    {
+      "name": "Chicken Alfredo",
+      "cuisine": "Italian",
+      "image": "https://raw.githubusercontent.com/otago-polytechnic-bit-courses/ID721001-mobile-application-development/s1-24/assessments/images/chicken_alfredo.png",
+      "ingredients": [
+        "300g fettuccine pasta",
+        "2 chicken breasts",
+        "Heavy cream",
+        "Parmesan cheese",
+        "Garlic",
+        "Butter"
+      ],
+      "instructions": "Cook fettuccine pasta. Cook chicken and garlic in butter. Add heavy cream and Parmesan cheese to make the Alfredo sauce. Toss with cooked pasta and serve."
+    },
+    {
+      "name": "Sushi Rolls",
+      "cuisine": "Japanese",
+      "image": "https://raw.githubusercontent.com/otago-polytechnic-bit-courses/ID721001-mobile-application-development/s1-24/assessments/images/sushi_rolls.jpg",
+      "ingredients": [
+        "Nori seaweed sheets",
+        "Sushi rice",
+        "Fresh fish (salmon, tuna, etc.)",
+        "Cucumber",
+        "Avocado",
+        "Soy sauce"
+      ],
+      "instructions": "Lay out nori seaweed, spread sushi rice, add fish, cucumber, and avocado. Roll tightly and slice into bite-sized pieces. Serve with soy sauce and wasabi."
+    },
+    {
+      "name": "Teriyaki Chicken",
+      "cuisine": "Japanese",
+      "image": "https://raw.githubusercontent.com/otago-polytechnic-bit-courses/ID721001-mobile-application-development/s1-24/assessments/images/teriyaki_chicken.jpg",
+      "ingredients": [
+        "Chicken thighs",
+        "Soy sauce",
+        "Mirin",
+        "Brown sugar",
+        "Sesame seeds",
+        "Green onions"
+      ],
+      "instructions": "Marinate chicken in soy sauce, mirin, and brown sugar. Grill or pan-fry until cooked. Sprinkle with sesame seeds and green onions. Serve with rice."
+    },
+    {
+      "name": "Miso Soup",
+      "cuisine": "Japanese",
+      "image": "https://raw.githubusercontent.com/otago-polytechnic-bit-courses/ID721001-mobile-application-development/s1-24/assessments/images/miso_soup.jpg",
+      "ingredients": [
+        "2 cups dashi stock",
+        "3 tbsp miso paste",
+        "Tofu",
+        "Seaweed",
+        "Green onions"
+      ],
+      "instructions": "Heat dashi stock. Dissolve miso paste in a small amount of stock. Add dissolved miso paste back to the pot. Add cubed tofu and seaweed. Simmer without boiling. Serve with chopped green onions."
+    },
+    {
+      "name": "Chicken Tikka Masala",
+      "cuisine": "Indian",
+      "image": "https://raw.githubusercontent.com/otago-polytechnic-bit-courses/ID721001-mobile-application-development/s1-24/assessments/images/chicken_tikka_masala.jpg",
+      "ingredients": [
+        "Chicken thighs",
+        "Yogurt",
+        "Garam masala",
+        "Tomato sauce",
+        "Cream",
+        "Garlic",
+        "Ginger",
+        "Cilantro"
+      ],
+      "instructions": "Marinate chicken in yogurt and garam masala. Grill or pan-fry until cooked. In a separate pan, cook garlic and ginger. Add tomato sauce and cream. Add cooked chicken and simmer. Garnish with cilantro and serve with rice."
+    },
+    {
+      "name": "Naan Bread",
+      "cuisine": "Indian",
+      "image": "https://raw.githubusercontent.com/otago-polytechnic-bit-courses/ID721001-mobile-application-development/s1-24/assessments/images/naan_bread.jpg",
+      "ingredients": [
+        "Flour",
+        "Yogurt",
+        "Baking powder",
+        "Salt",
+        "Sugar",
+        "Oil"
+      ],
+      "instructions": "Mix flour, yogurt, baking powder, salt, sugar, and oil. Knead dough and let rest. Roll out dough and cook in a pan until golden brown."
+    },
+    {
+      "name": "Chana Masala",
+      "cuisine": "Indian",
+      "image": "https://raw.githubusercontent.com/otago-polytechnic-bit-courses/ID721001-mobile-application-development/s1-24/assessments/images/chana_masala.jpg",
+      "ingredients": [
+        "Chickpeas",
+        "Tomatoes",
+        "Onion",
+        "Garlic",
+        "Ginger",
+        "Garam masala",
+        "Cumin",
+        "Turmeric",
+        "Cilantro"
+      ],
+      "instructions": "Cook onion, garlic, and ginger. Add tomatoes, chickpeas, and spices. Simmer until chickpeas are soft. Garnish with cilantro and serve with rice."
+    },
+    {
+      "name": "Chicken Noodle Soup",
+      "cuisine": "American",
+      "image": "https://raw.githubusercontent.com/otago-polytechnic-bit-courses/ID721001-mobile-application-development/s1-24/assessments/images/chicken_noodle_soup.jpg",
+      "ingredients": [
+        "Chicken thighs",
+        "Carrots",
+        "Celery",
+        "Onion",
+        "Garlic",
+        "Chicken broth",
+        "Egg noodles",
+        "Bay leaf",
+        "Thyme",
+        "Parsley"
+      ],
+      "instructions": "Cook chicken thighs. Cook carrots, celery, onion, and garlic. Add chicken broth, egg"
+    },
+    {
+      "name": "Hamburger",
+      "cuisine": "American",
+      "image": "https://raw.githubusercontent.com/otago-polytechnic-bit-courses/ID721001-mobile-application-development/s1-24/assessments/images/hamburger.jpg",
+      "ingredients": [
+        "Ground beef",
+        "Burger buns",
+        "Lettuce",
+        "Tomato",
+        "Onion",
+        "Cheese",
+        "Ketchup",
+        "Mustard"
+      ],
+      "instructions": "Form ground beef into patties. Cook patties on a grill or in a pan. Assemble burger with lettuce, tomato, onion, cheese, ketchup, and mustard."
+    },
+    {
+      "name": "Mac and Cheese",
+      "cuisine": "American",
+      "image": "https://raw.githubusercontent.com/otago-polytechnic-bit-courses/ID721001-mobile-application-development/s1-24/assessments/images/mac_and_cheese.jpg",
+      "ingredients": [
+        "Macaroni pasta",
+        "Cheddar cheese",
+        "Milk",
+        "Flour",
+        "Butter",
+        "Breadcrumbs"
+      ],
+      "instructions": "Cook macaroni pasta. Make a roux with butter and flour. Add milk and cheese to make a cheese sauce. Mix cooked pasta with cheese sauce. Top with breadcrumbs and bake until golden brown."
+    },
+    {
+      "name": "Coq au Vin",
+      "cuisine": "French",
+      "image": "https://raw.githubusercontent.com/otago-polytechnic-bit-courses/ID721001-mobile-application-development/s1-24/assessments/images/coq_au_vin.jpg",
+      "ingredients": [
+        "1 whole chicken, cut into pieces",
+        "Bacon",
+        "Pearl onions",
+        "Carrots",
+        "Red wine",
+        "Chicken broth",
+        "Mushrooms",
+        "Garlic",
+        "Thyme",
+        "Flour"
+      ],
+      "instructions": "Sear chicken and bacon. Remove from pot and sauté onions, carrots, and mushrooms. Add garlic and flour. Pour in red wine and chicken broth. Add chicken and thyme. Simmer until chicken is tender."
+    },
+    {
+      "name": "Croissant",
+      "cuisine": "French",
+      "image": "https://raw.githubusercontent.com/otago-polytechnic-bit-courses/ID721001-mobile-application-development/s1-24/assessments/images/croissant.jpg",
+      "ingredients": [
+        "2 1/4 cups all-purpose flour",
+        "1/4 cup sugar",
+        "1 packet active dry yeast",
+        "1/2 cup warm milk",
+        "1/2 tsp salt",
+        "1/2 cup unsalted butter",
+        "Egg wash (1 egg + 1 tbsp water)"
+      ],
+      "instructions": "Dissolve yeast and sugar in warm milk. Mix in flour and salt. Roll out dough and place butter in the center. Fold dough to encase butter. Roll and fold dough several times. Chill dough. Roll out, cut triangles, and roll into croissants. Brush with egg wash. Bake until golden."
+    },
+    {
+      "name": "Ratatouille",
+      "cuisine": "French",
+      "image": "https://raw.githubusercontent.com/otago-polytechnic-bit-courses/ID721001-mobile-application-development/s1-24/assessments/images/ratatouille.jpg",
+      "ingredients": [
+        "Eggplant",
+        "Zucchini",
+        "Red bell pepper",
+        "Onion",
+        "Tomatoes",
+        "Garlic",
+        "Thyme",
+        "Olive oil"
+      ],
+      "instructions": "Sauté onion and garlic. Add diced eggplant, zucchini, and bell pepper. Stir in tomatoes and thyme. Simmer until vegetables are tender. Serve warm as a side dish or over pasta."
+    }
+  ]
+}

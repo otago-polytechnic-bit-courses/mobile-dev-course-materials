@@ -1,0 +1,180 @@
+% Author: Grayson Orr
+% Course: ID721001: Mobile Application Development
+
+\documentclass{article}
+\author{}
+ 
+\usepackage{fontspec}
+\setmainfont{Arial}
+
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{enumerate}
+\usepackage{hyperref}
+\usepackage[margin = 2.25cm]{geometry}
+\usepackage[table]{xcolor}
+\usepackage{soul}
+\usepackage{fancyhdr}
+\hypersetup{
+ colorlinks = true,
+ urlcolor = blue
+} 
+\setlength\parindent{0pt}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{College of Engineering, Construction and Living Sciences\\Bachelor of Information Technology}
+\lfoot{Project\\Version 2, Semester Two, 2024}
+\rfoot{\thepage}
+ 
+\begin{document}
+
+\begin{figure}
+  \centering
+  \includegraphics[width=50mm]{"../../resources (ignore)/img/logo.png"}
+\end{figure}
+
+\title{College of Engineering, Construction and Living Sciences\\Bachelor of Information Technology\\ID721001: Mobile Application Development\\Level 7, Credits 15\\\textbf{Project}}
+\date{}
+\maketitle
+
+\section*{Assessment Overview}
+In this \textbf{individual} assessment, you will develop two mobile applications using \textbf{React Native} and \textbf{Expo} and publish them to \textbf{Expo Go}. In addition, marks will be allocated for code quality and best practices, documentation and \textbf{Git} usage. 
+
+\section*{Learning Outcomes}
+At the successful completion of this course, learners will be able to:
+\begin{enumerate}
+  \item Implement and publish complete, non-trivial, industry-standard mobile applications following sound architectural and code-quality standards.
+  \item Identify relevant use cases for a mobile computing scenario and incorporate them into an effective user experience design.
+  \item Follow industry standard software engineering practice in the design of mobile applications.
+\end{enumerate}
+
+\section*{Assessments}
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|c|c|}
+  \hline
+  \textbf{Assessment}                                 & \textbf{Weighting} & \textbf{Due Date}            & \textbf{Learning Outcome} \\ \hline
+  \small Practical & \small 20\%        & \small 13-11-2024 (Wednesday at 4.59 PM)   & \small 2, 3                   \\ \hline
+  \small Project                 & \small 80\%        & \small 13-11-2024 (Wednesday at 4.59 PM) \small  & \small 1, 2, 3                   \\ \hline
+\end{tabular}
+
+\section*{Conditions of Assessment}
+You will complete majority of this assessment during your learner-managed time. However, there will be time during class to discuss the requirements and your progress on this assessment. This assessment will need to be completed by \textbf{Wednesday, 13 November 2024} at \textbf{4.59 PM}.
+
+\section*{Pass Criteria}
+This assessment is criterion-referenced (CRA) with a cumulative pass mark of \textbf{50\%} over all assessments in \textbf{ID721001: Mobile Application Development}.
+
+\section*{Submission}
+You \textbf{must} submit all application files via \textbf{GitHub Classroom}. Here is the URL to the repository you will use for your submission – \href{https://classroom.github.com/a/Nh2sKWnc}{https://classroom.github.com/a/Nh2sKWnc}. If you do not have not one, create a \textbf{.gitignore} and add the ignored files in this resource - \href{https://raw.githubusercontent.com/github/gitignore/main/VisualStudio.gitignore}{https://raw.githubusercontent.com/github/gitignore/main/VisualStudio.gitignore}. Create a branch called \textbf{project}. The latest application files in the \textbf{project} branch will be used to mark against the \textbf{Functionality} criterion. Please test before you submit. Partial marks \textbf{will not} be given for incomplete functionality. Late submissions will incur a \textbf{10\% penalty per day}, rolling over at \textbf{5:00 PM}.
+
+\section*{Authenticity}
+All parts of your submitted assessment \textbf{must} be completely your work. Do your best to complete this assessment without using an \textbf{AI generative tool}. You need to demonstrate to the course lecturer that you can meet the learning outcome for this assessment. \\
+ 
+ However, if you get stuck, you can use an \textbf{AI generative tool} to help you get unstuck, permitting you to acknowledge that you have used it. In the assessment's repository \textbf{README.md} file, please include what prompt(s) you provided to the \textbf{AI generative tool} and how you used the response(s) to help you with your work. It also applies to code snippets retrieved from \textbf{StackOverflow} and \textbf{GitHub}. \\
+ 
+ Failure to do this may result in a mark of \textbf{zero} for this assessment.
+
+\section*{Policy on Submissions, Extensions, Resubmissions and Resits}
+The school's process concerning submissions, extensions, resubmissions and resits complies with \textbf{Otago Polytechnic | Te Pūkenga} policies. Learners can view policies on the \textbf{Otago Polytechnic | Te Pūkenga} website located at \href{https://www.op.ac.nz/about-us/governance-and-management/policies}{https://www.op.ac.nz/about-us/governance-and-management/policies}.  
+
+\section*{Extensions}
+Familiarise yourself with the assessment due date. Extensions will \textbf{only} be granted if you are unable to complete the assessment by the due date because of \textbf{unforeseen circumstances outside your control}. The length of the extension granted will depend on the circumstances and \textbf{must} be negotiated with the course lecturer before the assessment due date. A medical certificate or support letter may be needed. Extensions will not be granted for poor time management or pressure of other assessments.
+
+\section*{Resits}
+Resits and reassessments are not applicable in \textbf{ID721001: Mobile Application Development}.
+
+\section*{Instructions}
+You will need to submit a mobile application and documentation that meet the following requirements:
+
+\subsection*{Functionality - Learning Outcomes 1, 2, 3 (50\%)}
+\begin{itemize}
+  \item Cookbook application
+  \begin{itemize}
+    \item The mobile application needs to run without code or file structure modification in \textbf{Visual Studio Code}.
+  \item Usable on a variety of mobile devices, i.e., devices with different screen sizes.
+  \item Free of bugs that significantly affect the usability.
+  \item Food data needs to be fetched from \textbf{food-data.json}.
+  \item Display \textbf{bottom tab navigation} with the following screens:
+  \begin{itemize}
+    \item Milestone One: Daily specials - Due Monday, 26 August 2024 (Week 6) at 4.59 PM
+    \begin{itemize}
+      \item This screen will display six random recipes from the \textbf{food-data.json} file. 
+      \item Display the random recipes in a \textbf{FlatList}.
+      \item Each recipe item in the \textbf{FlatList} needs to display the recipe's name and image. Truncate the recipe's name if it is too long.
+      \item When a recipe item is pressed, display the recipe's name, image, cuisine, ingredients and instructions in a \textbf{ScrollView}. 
+    \end{itemize}
+    \item Milestone Two: Recipes - Due Monday, 2 September 2024 (Week 7) at 4.59 PM
+    \begin{itemize}
+      \item This screen will display all cuisines from the \textbf{food-data.json} file.
+      \item When a cuisine item is pressed, display all recipes for that cuisine in a \textbf{FlatList}.
+      \item Each recipe item in the \textbf{FlatList} needs to display the recipe's name, description and image. Truncate the recipe's name and description if it is too long.
+      \item When a recipe item is pressed, display the recipe's name, image, cuisine, ingredients and instructions in a \textbf{ScrollView}. 
+    \end{itemize}
+    \item A heart icon needs to be displayed in the top right corner of the screen. When the heart icon is pressed, the recipe is added to the \textbf{Favourites} screen. Persist the favourite recipes using \textbf{AsyncStorage}.
+    \item A plus icon needs to be displayed next to the heart icon. When the plus icon is pressed, the recipe's ingredients are added to the \textbf{Shopping list} screen. Persist the shopping list using \textbf{AsyncStorage}.
+    \item Milestone Three: Favourites - Due Monday, 9 September 2024 (Week 8) at 4.59 PM
+    \begin{itemize}
+      \item This screen will display all recipes that have been added to the \textbf{Favourites} screen.
+      \item Display the favourite recipes stored in \textbf{AsyncStorage} in a \textbf{FlatList}. 
+      \item Ability to delete a favourite recipe from the \textbf{FlatList}.
+    \end{itemize}
+    \item Shopping list - Due Monday, 16 September 2024 (Week 9) at 4.59 PM
+    \begin{itemize}
+      \item This screen will display all ingredients from the recipes that have been added to the \textbf{Shopping list} screen.
+      \item Display the shopping list stored in \textbf{AsyncStorage} in a \textbf{FlatList}.
+      \item Ensure there are no duplicate ingredients in the \textbf{FlatList}.
+      \item Ability to delete an ingredient from the \textbf{FlatList}.
+    \end{itemize}
+    \item Appropriate image used for the splash screen and app icon.
+    \item Visually attractive UI with a coherent graphical theme and style using \textbf{Tailwind CSS}.
+  \end{itemize}
+  \end{itemize}
+  \item Milestone Four: Application of your choice - Due Wednesday, 13 November 2024 (Week 15) at 4.59 PM
+  \begin{itemize}
+    \item The mobile application needs to run without code or file structure modification in \textbf{Visual Studio Code}.
+    \item Usable on a variety of mobile devices, i.e., devices with different screen sizes.
+    \item Free of bugs that significantly affect the usability.
+    \item Ten features \textbf{must} be implemented.
+    \item Store data in either \textbf{SQLite} or \textbf{Firebase}. 
+    \item Appropriate image used for the splash screen and app icon.
+    \item Visually attractive UI with a coherent graphical theme and style using \textbf{Tailwind CSS}.
+  \end{itemize}
+\end{itemize}
+
+\subsection*{Documentation - Learning Outcomes 2, 3 (10\%)}
+For each application, in a \textbf{Microsoft Word} document, explain the following:
+\begin{itemize}
+  \item Initial design sketches. These can be hand-drawn or created using a design tool. This is due Tuesday, 21 August 2024 (Week 5).
+  \item Known issues and bugs.
+  \item Future improvements.
+  \item A URL to the application on \textbf{Expo Go}.
+\end{itemize}
+
+\subsection*{Code Elegance - Learning Outcomes 1, 3 (35\%)}
+\begin{itemize}
+  \item A \textbf{Node.js} \textbf{.gitignore} file is used.
+  \item Appropriate naming of files, variables, functions and components.
+  \item Idiomatic use of control flow, data structures and in-built functions.
+  \item Efficient algorithmic approach.
+  \item Sufficient modularity.
+  \item Each \textbf{component} file has a \textbf{JSDoc} comment located at the top of the file.
+  \item Formatted code.
+  \item No dead or unused code. 
+\end{itemize}
+
+\subsection*{Git Usage - Learning Outcomes 2, 3 (5\%)}
+\begin{itemize}
+  \item A \textbf{GitHub} project board or issues to help you organise and prioritise your development work. The course lecturer needs to see consistent use of the \textbf{GitHub} project board or issues for the duration of the assessment.
+  \item Your \textbf{Git commit messages} should:
+  \begin{itemize}
+    \item Reflect the context of each functional requirement change.
+    \item Be formatted using an appropriate naming convention style.
+  \end{itemize}
+\end{itemize}
+
+\subsection*{Additional Information}
+\begin{itemize}
+    \item \textbf{Do not} rewrite your \textbf{Git} history. It is important that the course lecturer can see how you worked on your assessment over time. 
+    \item You need to show the course lecturer the initial \textbf{GitHub} project board or issues before you start your development work. Following this, you need to show the course lecturer your \textbf{GitHub} project board or issues at the end of each week.
+\end{itemize} 
+
+\end{document}
