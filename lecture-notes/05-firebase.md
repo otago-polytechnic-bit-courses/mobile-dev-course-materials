@@ -5,7 +5,7 @@
 Create a new project using the following command:
 
 ```bash
-npx create-expo-app 05-playground --template
+npx create-expo-app 05-playground --template blank
 ```
 
 Install the following dependencies:
