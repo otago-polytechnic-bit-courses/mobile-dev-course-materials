@@ -64,7 +64,7 @@ export default Button;
 import { useState, useEffect, useRef } from "react";
 import { Text, View, StyleSheet, Image } from "react-native";
 import Constants from "expo-constants";
-import { Camera } from "expo-camera";
+import { Camera } from "expo-camera/legacy";
 import { createAssetAsync, requestPermissionsAsync } from "expo-media-library";
 
 import Button from "./components/Button";
@@ -112,6 +112,8 @@ const App = () => {
       }
     }
   };
+
+  if (!hasCameraPermission) return <Text>No access to camera</Text>;
 
   return (
     <View style={styles.container}>
