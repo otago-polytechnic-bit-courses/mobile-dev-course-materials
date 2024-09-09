@@ -113,6 +113,8 @@ const App = () => {
     }
   };
 
+  if (!hasCameraPermission) return <Text>No access to camera</Text>;
+
   return (
     <View style={styles.container}>
       {!image ? (
