@@ -50,6 +50,8 @@ Reload your application. You should see the following:
 
 <img src="../resources%20(ignore)/img/09/phone-1.png" width="250" height="444" />
 
+---
+
 ## Speech
 
 ### Getting Started
