@@ -17,7 +17,7 @@ A `WebView` enables you to display web content in your application. It is simila
 To get started, install the following dependency:
 
 ```bash
-npm install react-native-webview@11.26.1
+npm install react-native-webview
 ```
 
 ### App.jsx
