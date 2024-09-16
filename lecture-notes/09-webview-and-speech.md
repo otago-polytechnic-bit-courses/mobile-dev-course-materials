@@ -103,7 +103,6 @@ You can find a **Musixmatch** API key on the **Microsoft Teams** course channel 
 
 4. Using the **Yandex Translate** API, create a language translator. Create two `TextInput` components. When the user enters text into the first `TextInput` component, the text should be translated into the language specified in the second `TextInput` component. For example, if the user enters `Hello` into the first `TextInput` component and `fr` into the second `TextInput` component, the text should be translated into French.
 
-
 Here is an example endpoint - <https://translate.yandex.net/api/v1.5/tr.json/translate?key=<ADD YOUR API KEY HERE>&text=hello&lang=en-fr>
 
 You can find a **Yandex Translate** API key on the **Microsoft Teams** course channel under `Files` > `api-keys` > `yandex-api-key.txt`.
