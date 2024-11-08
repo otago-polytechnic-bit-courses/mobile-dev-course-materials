@@ -17,7 +17,7 @@ npx create-expo-app 02-playground --template blank
 Install the following dependencies:
 
 ```bash
-npm install @react-navigation/native react-native-screens react-native-safe-area-context
+npm install @react-navigation/native@^6.x react-native-screens react-native-safe-area-context
 ```
 
 - `@react-navigation/native` - Core library
